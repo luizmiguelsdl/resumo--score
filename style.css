@@ -1,0 +1,270 @@
+:root{
+--White: hsl(0, 0%, 100%);
+--Pale-blue: hsl(221, 100%, 96%);
+--Light-lavender: hsl(241, 100%, 89%);
+--Dark-gray-blue: hsl(224, 30%, 27%);
+
+--Light-slate-blue: hsl(252, 100%, 67%);
+--Light-royal-blue : hsl(241, 81%, 54%);
+--Violet-blue: hsla(256, 72%, 46%, 1);
+--Persian-blue : hsla(241, 72%, 46%, 0);
+
+--Light-red: hsl(0, 100%, 67%);
+--Orangey-yellow: hsl(39, 100%, 56%);
+--Green-teal: hsl(166, 100%, 37%);
+--Cobalt-blue: hsl(234, 85%, 45%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(--Pale-blue);
+}
+
+.container-1{
+    width: 440px;
+    height: 320px;
+    background-color: var(--White);
+    border-radius: 25px;
+    box-shadow: -1px -5px 66px -6px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -1px -5px 66px -6px rgba(0,0,0,0.63);
+    -moz-box-shadow: -1px -5px 66px -6px rgba(0,0,0,0.63);
+}
+
+.container-2{
+    width: 220px;
+    height: 320px;
+    border-radius: 25px;
+    background-color: var(--Cobalt-blue);
+}
+
+.circulo{
+    width: 130px;
+    height: 130px;
+    background-color:var(--Light-royal-blue);
+    border-radius: 50%;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+.numero{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 55px;
+    position: relative;
+    left: 32px;
+    top: 28px;
+    color: var(--White);
+}
+
+.paragrafo{
+    position: relative;
+    left: 43px;
+    top: 27px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 14px;
+    color: var(--Light-lavender);
+}
+
+.titulo{
+    position: relative;
+    left: 55px;
+    top: 25px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: var(--Light-lavender);
+    font-size: 18px;
+}
+
+.titulo2{
+    font-family: "Hanken Grotesk", sans-serif;
+    color: var(--White);
+    position: relative;
+    top: 210px;
+    left: 78px;
+}
+
+.paragrafo2{
+    font-family: "Hanken Grotesk", sans-serif;
+    color: var(--Light-lavender);
+    font-size: 10px;
+    position: relative;
+    left: 37px;
+    top: 220px;
+}
+
+.paragrafo3{
+    font-family: "Hanken Grotesk", sans-serif;
+    position: relative;
+    left: 235px;
+    bottom: 180px;
+}
+
+.box-1{
+    width: 180px;
+    height: 35px;
+    background-color: rgb(254, 234, 234);
+    border-radius: 5px;
+    position: relative;
+    left: 235px;
+}
+
+.box-2{
+    width: 180px;
+    height: 35px;
+    background-color: rgb(255, 246, 230);
+    border-radius: 5px;
+    position: relative;
+    left: 235px;
+    top: 12px;
+}
+
+.box-3{
+    width: 180px;
+    height: 35px;
+    background-color:rgb(229, 250, 229);
+    border-radius: 5px;
+    position: relative;
+    left: 235px;
+    top: 24px;
+}
+
+.box-4{
+    width: 180px;
+    height: 35px;
+    background-color: rgb(230, 230, 253);
+    border-radius: 5px;
+    position: relative;
+    left: 235px;
+    top: 36px;
+}
+
+.container{
+    position: relative;
+    bottom: 160px;
+}
+
+.botao{
+    width: 140px;
+    height: 10px;
+    background-color: var(--Dark-gray-blue);
+    margin: 20px 0;
+    padding: 13px 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 235px;
+    top: 33px;
+}
+
+.paragrafo4{
+    position: relative;
+    left: 45px;
+    bottom: 2px;
+    color: white;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 13px;
+}
+
+.imagem{
+    position: relative;
+    top: 7px;
+    left: 3px;
+}
+
+.paragrafo5{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 13px;
+    position: relative;
+    left: 30px;
+    bottom: 14px;
+    color: var(--Light-red);
+}
+
+.paragrafo6{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 13px;
+    position: relative;
+    left: 30px;
+    bottom: 14px;
+    color: var(--Orangey-yellow);
+}
+
+.paragrafo7{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 13px;
+    position: relative;
+    left: 30px;
+    bottom: 14px;
+    color: var(--Green-teal);
+}
+
+.paragrafo8{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 13px;
+    position: relative;
+    left: 30px;
+    bottom: 14px;
+    color: var(--Violet-blue);
+}
+
+.botao:hover{
+    background-color: var(--Light-royal-blue);
+}
+
+.numero2{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 13px;
+    position: relative;
+    left: 136px;
+    bottom: 27px;
+}
+
+.numero3{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 13px;
+    position: relative;
+    left: 150px;
+    bottom: 42px;
+    color: rgb(135, 135, 135);
+}
+
+.paragrafos{
+    position: relative;
+    bottom: 330px;
+    left: 220px;
+}
+
+.box-5{
+    position: relative;
+    left: 235px;
+    bottom: 340px;
+}
+
+.box-6{
+    position: relative;
+    left: 235px;
+    bottom: 323px;
+}
+
+.box-7{
+    position: relative;
+    left: 235px;
+    bottom: 305px;
+}
+
+.box-8{
+    position: relative;
+    left: 235px;
+    bottom: 287px;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
